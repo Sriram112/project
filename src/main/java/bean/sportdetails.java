@@ -3,7 +3,7 @@ package bean;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "sportdetails")
+@Table(name = "Sportdetails")
 public class sportdetails {
     @Id
     @GeneratedValue

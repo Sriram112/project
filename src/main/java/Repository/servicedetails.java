@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface servicedetails extends Repository {
+public interface Servicedetails extends Repository {
 @Query(value = " ",nativeQuery = true)
-List<servicedetails> findByChannel(String serviceId);
+List<Servicedetails> findByChannel(String serviceId);
 }
